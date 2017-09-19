@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,0CAAM,CACF,OAAO,CAAE,IAAI,CAGjB,QAAS,CACL,OAAO,CAAE,CAAC,CAEV,uBAAO,CACH,OAAO,CAAE,YAAY,CACrB,SAAS,CAAE,IAAI,CAIf,iBAAQ,CACJ,OAAO,CAAE,KAAK,CAMtB,qCAAK,CACD,OAAO,CAAE,CAAC",
-"sources": ["../src/print.scss"],
-"names": [],
-"file": "print.min.css"
-}

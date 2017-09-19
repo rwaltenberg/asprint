@@ -2,10 +2,10 @@
   "name": "asprint",
   "version": "1.0.0",
   "description": "Plugin css para melhorar impressão da agenda sacramental no app agendasacramental.org",
-  "main": "dist/print.min.css",
+  "main": "dist/print.css",
   "scripts": {
-    "build": "scss --style=compressed  ./src/print.scss ./dist/print.min.css",
-    "watch": "scss --style=compressed  ./src/print.scss ./dist/print.min.css && scss --style=compressed --watch  ./src/print.scss:./dist/print.min.css"
+    "build": "node-sass ./src/print.scss --output-style expanded --source-map true --output ./dist",
+    "watch": "node-sass ./src/print.scss --output-style expanded --source-map true --output ./dist && node-sass --watch ./src/print.scss --output-style expanded --source-map true --output ./dist"
   },
   "repository": {
     "type": "git",
