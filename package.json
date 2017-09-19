@@ -18,7 +18,7 @@
     "mormon"
   ],
   "author": "Rodrigo Waltenberg <rwaltenberg@gmail.com>",
-  "license": "GNU v3.0",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/rwaltenberg/asprint/issues"
   },
