@@ -1,0 +1,9 @@
+version: "2"
+services:
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app:cached
+      - /app/node_modules
