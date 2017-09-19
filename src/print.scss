@@ -1,0 +1,32 @@
+%hide {
+    display: none;
+}
+
+#details {
+    padding: 0;
+    
+    h1, h2 {
+        display: inline-block;
+        font-size: 32px;
+    }
+
+    h1 {
+        &:after {
+            content: ' - '
+        }
+    }
+}
+
+.chapter-selector {
+    &, * {
+        padding: 0;
+    }
+
+    .arrow {
+        @extend %hide;
+    }
+}
+
+#editar, #imprimir {
+    @extend %hide;
+}
