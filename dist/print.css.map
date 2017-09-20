@@ -1,9 +1,1 @@
-{
-	"version": 3,
-	"file": "print.css",
-	"sources": [
-		"../src/print.scss"
-	],
-	"names": [],
-	"mappings": "AAmBA,AAnBA,iBAmBiB,CAKb,MAAM,EAKV,AA7BA,OA6BO,EAAE,AA7BT,SA6BkB,CA7BZ;EACF,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,CAAC;CAYb;;AAbD,AAGI,QAHI,CAGJ,EAAE,EAHN,AAGQ,QAHA,CAGA,EAAE,CAAC;EACH,OAAO,EAAE,YAAY;EACrB,SAAS,EAAE,IAAI;CAClB;;AANL,AAQI,QARI,CAQJ,EAAE,AACE,MAAO,CAAC;EACJ,OAAO,EAAE,KACb;CAAE;;AAIV,AACI,iBADa,EAAjB,AACO,iBADU,CACV,CAAC,CAAC;EACD,OAAO,EAAE,CAAC;CACb"
-}
+{"version":3,"file":"print.css","sources":["print.scss"],"sourcesContent":["%hide {\n    display: none;\n}\n\n#details {\n    padding: 0;\n    \n    h1, h2 {\n        display: inline-block;\n        font-size: 32px;\n    }\n\n    h1 {\n        &:after {\n            content: ' - '\n        }\n    }\n}\n\n.chapter-selector {\n    &, * {\n        padding: 0;\n    }\n\n    .arrow {\n        @extend %hide;\n    }\n}\n\n#editar, #imprimir {\n    @extend %hide;\n}"],"names":[],"mappings":"AAmBA,AAnBA,iBAmBiB,CAKb,MAAM,EAKV,AA7BA,OA6BO,EAAE,AA7BT,SA6BkB,CA7BZ;EACF,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,CAAC;CAYb;;AAbD,AAGI,QAHI,CAGJ,EAAE,EAHN,AAGQ,QAHA,CAGA,EAAE,CAAC;EACH,OAAO,EAAE,YAAY;EACrB,SAAS,EAAE,IAAI;CAClB;;AANL,AAQI,QARI,CAQJ,EAAE,AACE,MAAO,CAAC;EACJ,OAAO,EAAE,KACb;CAAE;;AAIV,AACI,iBADa,EAAjB,AACO,iBADU,CACV,CAAC,CAAC;EACD,OAAO,EAAE,CAAC;CACb"}

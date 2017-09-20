@@ -4,8 +4,8 @@
   "description": "Plugin css para melhorar impressão da agenda sacramental no app agendasacramental.org",
   "main": "dist/print.css",
   "scripts": {
-    "build": "node-sass ./src/print.scss --output-style expanded --source-map true --output ./dist",
-    "watch": "node-sass ./src/print.scss --output-style expanded --source-map true --output ./dist && node-sass --watch ./src/print.scss --output-style expanded --source-map true --output ./dist"
+    "build": "gulp sass",
+    "watch": "gulp sass watch"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/rwaltenberg/asprint#readme",
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
   }
 }
